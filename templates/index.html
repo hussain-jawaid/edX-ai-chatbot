@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdX</title>
+    <link rel="stylesheet" href="../static/chatbot.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="chat-container">
+            <div id="heading">
+                <h1>Hi, I'm EdX.</h1>
+                <small>How can I help you today?</small>
+            </div>
+            <div id="chat-messages">
+                <!-- Chat messages will appear here -->
+            </div>
+            <div id="text-field">
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Message...">
+                    <button type="submit"><i class="fa-solid fa-arrow-up"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../static/chatbot.js"></script>
+</body>
+
+</html>
