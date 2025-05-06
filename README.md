@@ -22,5 +22,5 @@ EdX is an AI-powered conversational chatbot built using Python, JavaScript, HTML
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/edx-chatbot.git
-   cd edx-chatbot
+   git clone https://github.com/hussain-jawaid/edX-ai-chatbot
+   cd edX-ai-chatbot
